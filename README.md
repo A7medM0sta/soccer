@@ -17,15 +17,15 @@ Research and development of AI models for soccer analytics and insights. This pr
 <p align="center">
   <div style="display: inline-block; margin: 10px;">
     <p><strong>Train Results</strong></p>
-    <img src="assets/img_1.png" alt="Train Results" width="300"/>
+    <img src="assets/img_1.png" alt="Train Results" width="400"/>
   </div>
   <div style="display: inline-block; margin: 10px;">
     <p><strong>Confusion Matrix</strong></p>
-    <img src="assets/img.png" alt="Confusion Matrix" width="300"/>
+    <img src="assets/img.png" alt="Confusion Matrix" width="400"/>
   </div>
   <div style="display: inline-block; margin: 10px;">
     <p><strong>Result for Validation</strong></p>
-    <img src="assets/img_2.png" alt="Result for Validation" width="300"/>
+    <img src="assets/img_2.png" alt="Result for Validation" width="400"/>
   </div>
 </p>
 
