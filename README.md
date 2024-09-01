@@ -30,18 +30,32 @@ Research and development of AI models for soccer analytics and insights. This pr
 </p>
 
 ### Train player detectors
-* train results
-![train results](assets/img_3.png)
-* Confession matrix
-![Confusion matrix](assets/img_5.png)
-* Result for Validation
-![Result for Validation](assets/img_4.png)
+<p align="center">
+  <div style="display: inline-block; margin: 10px;">
+    <p><strong>Train Results</strong></p>
+    <img src="assets/img_3.png" alt="Train Results" width="400"/>
+  </div>
+  <div style="display: inline-block; margin: 10px;">
+    <p><strong>Confusion Matrix</strong></p>
+    <img src="assets/img_5.png" alt="Confusion Matrix" width="400"/>
+  </div>
+  <div style="display: inline-block; margin: 10px;">
+    <p><strong>Result for Validation</strong></p>
+    <img src="assets/img_4.png" alt="Result for Validation" width="400"/>
+  </div>
+</p>
 
 ### train pitch keypoint detectors
-* train results
-![train results](assets/img_6.png)
-* Result for Validation
-* ![Result for Validation](assets/img_7.png)
+<p align="center">
+  <div style="display: inline-block; margin: 10px;">
+    <p><strong>Train Results</strong></p>
+    <img src="assets/img_6.png" alt="Train Results" width="400"/>
+  </div>
+  <div style="display: inline-block; margin: 10px;">
+    <p><strong>Result for Validation</strong></p>
+    <img src="assets/img_7.png" alt="Result for Validation" width="400"/>
+  </div>
+</p>
 
 ## 💻 Installation Guide
 
