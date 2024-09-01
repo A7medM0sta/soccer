@@ -14,12 +14,20 @@
 ## 📝 Overview
 Research and development of AI models for soccer analytics and insights. This project aims to provide tools for detecting players, goalkeepers, referees, and the ball in soccer videos. It also includes features for tracking player movements, classifying players into teams, and visualizing player positions on the soccer field.
 ### Train ball detectors
-* train results
-![train results](assets/img_1.png)
-* Confession matrix
-![Confusion matrix](assets/img.png)
-* Result for Validation
-![Result for Validation](assets/img_2.png)
+<p align="center">
+  <div style="display: inline-block; margin: 10px;">
+    <p><strong>Train Results</strong></p>
+    <img src="assets/img_1.png" alt="Train Results" width="300"/>
+  </div>
+  <div style="display: inline-block; margin: 10px;">
+    <p><strong>Confusion Matrix</strong></p>
+    <img src="assets/img.png" alt="Confusion Matrix" width="300"/>
+  </div>
+  <div style="display: inline-block; margin: 10px;">
+    <p><strong>Result for Validation</strong></p>
+    <img src="assets/img_2.png" alt="Result for Validation" width="300"/>
+  </div>
+</p>
 
 ### Train player detectors
 * train results
