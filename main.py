@@ -117,6 +117,7 @@ def resolve_goalkeepers_team_id(
     the players. Then, it assigns each goalkeeper to the nearest team's centroid by
     calculating the distance between each goalkeeper and the centroids of the two teams.
     """
+
     goalkeepers_xy = goalkeepers.get_anchors_coordinates(sv.Position.BOTTOM_CENTER)
     players_xy = players.get_anchors_coordinates(sv.Position.BOTTOM_CENTER)
     team_0_centroid = players_xy[players_team_id == 0].mean(axis=0)
@@ -192,6 +193,7 @@ def run_player_detection(source_video_path: str, device: str) -> Iterator[np.nda
     Yields:
         Iterator[np.ndarray]: Iterator over annotated frames.
     """
+
     player_detection_model = YOLO(PLAYER_DETECTION_MODEL_PATH).to(device=device)
     frame_generator = sv.get_video_frames_generator(source_path=source_video_path)
     for frame in frame_generator:

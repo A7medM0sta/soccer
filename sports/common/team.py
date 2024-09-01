@@ -3,7 +3,8 @@ from typing import Generator, Iterable, List, TypeVar
 import numpy as np
 import supervision as sv
 import torch
-import umap
+# import umap
+import umap.umap_ as umap
 from sklearn.cluster import KMeans
 from tqdm import tqdm
 from transformers import AutoProcessor, SiglipVisionModel
