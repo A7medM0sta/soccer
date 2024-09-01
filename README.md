@@ -11,7 +11,7 @@
   <img src="assets/outputs/4.png" alt="Image 4" width="400"/>
 </p>
 
-Link to the [Demo](https://drive.google.com/drive/folders/1J9Q6Q6Q6J9Q6Q6J9Q6Q6J9Q6Q6J9
+Link to the [Demo](https://github.com/A7medM0sta/soccer/blob/main/data/2e57b9_0-radar.mp4)
 ## 📝 Overview
 Research and development of AI models for soccer analytics and insights. This project aims to provide tools for detecting players, goalkeepers, referees, and the ball in soccer videos. It also includes features for tracking player movements, classifying players into teams, and visualizing player positions on the soccer field.
 ### Train ball detectors
@@ -127,6 +127,8 @@ python main.py --source_video_path data/2e57b9_0.mp4 --target_video_path data/2e
 
 
 ## References
-* https://github.com/roboflow/notebooks/blob/main/notebooks/train-yolov8-object-detection-on-custom-dataset.ipynb) 
+* http://roboflow.com
+* https://github.com/roboflow/notebooks/blob/main/notebooks/train-yolov8-object-detection-on-custom-dataset.ipynb
 * https://github.com/roboflow/notebooks
-* 
+* https://blog.roboflow.com/camera-calibration-sports-computer-vision/* 
+* https://blog.roboflow.com/tracking-ball-sports-computer-vision/
