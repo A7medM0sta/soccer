@@ -9,11 +9,11 @@ import supervision as sv
 from tqdm import tqdm
 from ultralytics import YOLO
 
-from sports.annotators.soccer import draw_pitch, draw_points_on_pitch
-from sports.common.ball import BallTracker, BallAnnotator
-from sports.common.team import TeamClassifier
-from sports.common.view import ViewTransformer
-from sports.configs.soccer import SoccerPitchConfiguration
+from src.sports.annotators import draw_pitch, draw_points_on_pitch
+from src.sports.common.ball import BallTracker, BallAnnotator
+from src.sports.common.team import TeamClassifier
+from src.sports import ViewTransformer
+from src.sports.configs.soccer import SoccerPitchConfiguration
 
 PARENT_DIR = os.path.dirname(os.path.abspath(__file__))
 PLAYER_DETECTION_MODEL_PATH = os.path.join(PARENT_DIR, 'data/football-player-detection.pt')
