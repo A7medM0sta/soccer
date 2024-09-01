@@ -1,8 +1,39 @@
-Here's a more readable version of your file, with added soccer-related emojis to make it more engaging:
+
 
 ---
 
-# ⚽ Soccer AI 🧠
+#  Soccer AI 🧠
+## Demo
+<p align="center">
+  <img src="assets/outputs/1.png" alt="Image 1" width="200"/>
+  <img src="assets/outputs/2.png" alt="Image 2" width="200"/>
+  <img src="assets/outputs/3.png" alt="Image 3" width="200"/>
+  <img src="assets/outputs/4.png" alt="Image 4" width="200"/>
+</p>
+
+## 📝 Overview
+Research and development of AI models for soccer analytics and insights. This project aims to provide tools for detecting players, goalkeepers, referees, and the ball in soccer videos. It also includes features for tracking player movements, classifying players into teams, and visualizing player positions on the soccer field.
+### Train ball detectors
+* train results
+![train results](assets/img_1.png)
+* Confession matrix
+![Confusion matrix](assets/img.png)
+* Result for Validation
+![Result for Validation](assets/img_2.png)
+
+### Train player detectors
+* train results
+![train results](assets/img_3.png)
+* Confession matrix
+![Confusion matrix](assets/img_5.png)
+* Result for Validation
+![Result for Validation](assets/img_4.png)
+
+### train pitch keypoint detectors
+* train results
+![train results](assets/img_6.png)
+* Result for Validation
+* ![Result for Validation](assets/img_7.png)
 
 ## 💻 Installation Guide
 
