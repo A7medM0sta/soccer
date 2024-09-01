@@ -1,0 +1,3 @@
+- 📓 ball, players, and referees detection model training notebook:https://colab.research.google.com/github/roboflow/sports/blob/main/examples/soccer/notebooks/train_player_detector.ipynb
+- 📓 pitch keypoints detection model training notebook:https://colab.research.google.com/github/roboflow/sports/blob/main/examples/soccer/notebooks/train_pitch_keypoint_detector.ipynb
+- 📓 football AI notebook: https://colab.research.google.com/github/roboflow-ai/notebooks/blob/main/notebooks/football-ai.ipynb
